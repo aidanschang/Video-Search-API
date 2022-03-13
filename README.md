@@ -23,16 +23,4 @@ On the left side of the App, A state called *selectedVideo* is defaulted to be t
 <img width="602" alt="Screen Shot 2022-03-12 at 10 43 37 PM" src="https://user-images.githubusercontent.com/84875731/158048500-0a5af02c-c0bd-418e-bb54-0e80a53fb7fa.png">
 
 ### CSS
-In this project, I heavily rely on Semantic UI for formatting the video list, text format, and grids. With that, restricted class names are implemented. Lastly, I also set some default search parameters to make the whole App a bit more intuitive.
-
-## Features
-
-### Default Display
-A default searched videos will shown when the APP is initially opened and the "read to play video" is defaulted as the first video of a searched video list.
-
-![Screen Shot 2022-03-12 at 10 03 44 PM](https://user-images.githubusercontent.com/84875731/158047240-3a97654c-f73a-49d5-ad4e-ac622f5c453b.png)
-
-![Screen Shot 2022-03-12 at 10 04 11 PM](https://user-images.githubusercontent.com/84875731/158047251-86323d00-a84b-4088-ba2b-d0a5ddc67962.png)
-
-
-### 
+In this project, I heavily rely on Semantic UI for formatting the video list, text format, and grids, therefore, restricted class names are implemented.
