@@ -1,4 +1,4 @@
-# Youtube Video Search API
+# Youtube Video Search API with React
 
 ## Overview
 This Youtube video API allows users to search a list of 5 youtube videos at one time and has the ability to play any videos that were searched.
