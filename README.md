@@ -6,7 +6,11 @@ This Youtube video API allows users to search a list of 5 youtube videos at one 
 
 ## Structures
 
-App.js is my main file which passes four different props to its children. I use async term-submit to obtain the response from youtube API and used *renderedList* function to map *VideoItem* from the response, then I evoke *renderedList* to return a list of videos *VideoList* to be displayed. A "ready to play video" called *VideoDetail* is then extracted and displayed as the main video.  
+App.js is my main file which passes four different props to its children and I used async term-submit to obtain the response from youtube API.
+
+I have a list of searched videos displayed on the right side of the App. I used *renderedList* function to map *VideoItem* from the response, then I evoke *renderedList* to return a list of *VideoItems* into a *VideoList* to be displayed.
+
+On the left side of the App, A state called *selectedVideo* is defaulted to be the first video of a searched list of videos on the App.js file. The *selectedVideo* state is then passed down to *VideoDetail* function through props and rendered the video player, title, and description. Finally, it returns the *VideoDetail* back to App.js.
 
 In this project, I heavily rely on Semantic UI for formatting the video list, text format, and grids. With that, restricted class names are implemented. Lastly, I also set some default search parameters to make the whole App a bit more intuitive.
 
