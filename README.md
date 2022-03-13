@@ -10,6 +10,8 @@ App.js is my main file which passing four different props to its children. I use
 
 In this project, I heavily rely on Semantic UI for formatting the video list, text format, and grids. With that, restricted class names are implemented. Lastly, I also set some default search parameters to make the whole App a bit more intuitive.
 
+![Screen Shot 2022-03-12 at 10 18 23 PM](https://user-images.githubusercontent.com/84875731/158047642-c07c3d05-7415-4182-99af-b861fbb54d79.png)
+
 
 ## Features
 
