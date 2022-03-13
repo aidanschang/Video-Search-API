@@ -8,6 +8,8 @@ This Youtube video API allows users to search a list of 5 youtube videos at one 
 
 App.js is my main file which passes four different props to its children and I used async term-submit to obtain the response from youtube API.
 
+<img width="766" alt="Screen Shot 2022-03-12 at 10 45 58 PM" src="https://user-images.githubusercontent.com/84875731/158048581-feed2a9b-1368-4a3a-a76a-04805da9c55f.png">
+
 I have a list of searched videos displayed on the right side of the App. I used *renderedList* function to map *VideoItem* from the response, then I evoke *renderedList* to return a list of *VideoItems* into a *VideoList* to be displayed.
 
 <img width="755" alt="Screen Shot 2022-03-12 at 10 44 20 PM" src="https://user-images.githubusercontent.com/84875731/158048522-38fbcf8d-5f56-4e18-91c9-180af6097a73.png">
